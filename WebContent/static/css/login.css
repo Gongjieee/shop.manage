@@ -40,7 +40,7 @@ html, body {
 	margin: 0px auto;
 	width: 986px;
 	height: 570px;
-	background: url('../images/login/login.gif') 0px 0px no-repeat;
+	background: url('static/images/logo.png') 0px 0px no-repeat;
 	position: relative;
 }
 #login_form{

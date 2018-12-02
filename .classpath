@@ -28,5 +28,22 @@
 	<classpathentry kind="lib" path="WebContent/static/css/login.css"/>
 	<classpathentry kind="lib" path="WebContent/static/css/main.css"/>
 	<classpathentry kind="lib" path="WebContent/static/css/style.css"/>
+	<classpathentry kind="lib" path="WebContent/static/images/owl-login-arm.png"/>
+	<classpathentry kind="lib" path="WebContent/static/css/font-awesome.min.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/inputEffect.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/normalize.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/sign-up-login.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/spop.min.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/tooltips.css"/>
+	<classpathentry kind="lib" path="WebContent/static/fonts/fontawesome-webfont.eot"/>
+	<classpathentry kind="lib" path="WebContent/static/fonts/fontawesome-webfont.svg"/>
+	<classpathentry kind="lib" path="WebContent/static/fonts/fontawesome-webfont.ttf"/>
+	<classpathentry kind="lib" path="WebContent/static/fonts/fontawesome-webfont.woff"/>
+	<classpathentry kind="lib" path="WebContent/static/fonts/fontawesome-webfont.woff2"/>
+	<classpathentry kind="lib" path="WebContent/static/fonts/FontAwesome.otf"/>
+	<classpathentry kind="lib" path="WebContent/static/js/jquery.pure.tooltips.js"/>
+	<classpathentry kind="lib" path="WebContent/static/js/snow.js"/>
+	<classpathentry kind="lib" path="WebContent/static/js/spop.min.js"/>
+	<classpathentry kind="lib" path="WebContent/loginnew.jsp"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

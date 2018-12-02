@@ -20,35 +20,67 @@
 			 if(i==0){
 				$("#rightMain").removeAttr("src");
 				$("#rightMain").attr("src","addshop.jsp");
+				$("#nowlocal").html("添加商品信息");
 			 }else if(i==1){
 				 $("#rightMain").removeAttr("src");
 					$("#rightMain").attr("src","modifyshop.jsp");
+					$("#nowlocal").html("修改商品信息");
 			 }else if(i==2){
 				 $("#rightMain").removeAttr("src");
 					$("#rightMain").attr("src","searchshop.jsp");
+					$("#nowlocal").html("查询商品信息");
 			 }else if(i==3){
 				 $("#rightMain").removeAttr("src");
 					$("#rightMain").attr("src","decodeshop.jsp");
+					$("#nowlocal").html("删除商品信息");
 			 }else if(i==4){
 				 $("#rightMain").removeAttr("src");
 					$("#rightMain").attr("src","searchUser.jsp");
+					$("#nowlocal").html("查询用户信息");
 			 }else if(i==5){
 				 $("#rightMain").removeAttr("src");
 					$("#rightMain").attr("src","deleteUser.jsp");
+					$("#nowlocal").html("删除用户信息");
 			 }else if(i==6){
 				 $("#rightMain").removeAttr("src");
 					$("#rightMain").attr("src","addUser.jsp");
+					$("#nowlocal").html("添加用户信息");
 			 }else if(i==7){
 				 $("#rightMain").removeAttr("src");
 					$("#rightMain").attr("src","ProductInfo.jsp");
+					$("#nowlocal").html("产品跟踪");
 			 }
-			 
-			 
-			 
+			 else if(i==8){
+				 $("#rightMain").removeAttr("src");
+					$("#rightMain").attr("src","searchmanager.jsp");
+					$("#nowlocal").html("查询管理员信息");
+			 }
+			 else if(i==9){
+				 $("#rightMain").removeAttr("src");
+					$("#rightMain").attr("src","deletemanager.jsp");
+					$("#nowlocal").html("删除管理员信息");
+			 }
+			 else if(i==10){
+				 $("#rightMain").removeAttr("src");
+					$("#rightMain").attr("src","addmanager.jsp");
+					$("#nowlocal").html("添加管理员");
+			 }
 	  	});
 	})
+	$("#userinfo").click(function(){
+		$("#rightMain").removeAttr("src");
+		$("#rightMain").attr("src","userInfo.jsp");
+	})
+	$("#hp").click(function(){
+		$("#rightMain").removeAttr("src");
+		$("#rightMain").attr("src","help.jsp");
+	})
+	$("#gy").click(function(){
+		$("#rightMain").removeAttr("src");
+		$("#rightMain").attr("src","gy.jsp");
+	})
+	$("#nowlocal").html("");
  });
-
 
   $(function(){
       $(".sideMenu").slide({
@@ -112,13 +144,13 @@ function menuScroll(num){
         <div id="logo" class="fl"></div>
         <div id="photo_info" class="fr">
           <div id="photo" class="fl">
-            <a href="#"><img src="images/a.png" alt="" width="60" height="60"></a>
+            <a id="userinfo"><img src="static/images/a.png" alt="" width="60" height="60"></a>
           </div>
           <div id="base_info" class="fr">
             <div class="help_info">
-              <a href="1" id="hp">&nbsp;</a>
-              <a href="2" id="gy">&nbsp;</a>
-              <a href="3" id="out">&nbsp;</a>
+              <a  id="hp">&nbsp;</a>
+              <a id="gy">&nbsp;</a>
+              <a href="login.jsp" id="out">&nbsp;</a>
             </div>
             <div class="info_center">
               admin
@@ -129,7 +161,7 @@ function menuScroll(num){
       </div>
       <div id="side_here">
         <div id="side_here_l" class="fl"></div>
-        <div id="here_area" class="fl">当前位置：</div>
+        <div id="here_area" class="fl">当前位置：<span id="nowlocal"></span></div>
       </div>
     </div>
     <div class="side">
@@ -147,6 +179,12 @@ function menuScroll(num){
             <li>删除用户信息</li>
             <li>添加用户</li>
             <li>产品跟踪</li>
+          </ul>
+          <h3> 管理员信息管理</h3>
+          <ul>
+            <li>查询管理员信息</li>
+            <li>删除管理员信息</li>
+            <li>添加管理员</li>
           </ul>
 
         
