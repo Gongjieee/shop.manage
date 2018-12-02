@@ -8,5 +8,25 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbutils-1.7-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbutils-1.7.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/druid-1.1.10-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/druid-1.1.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="lib" path="WebContent/static/js/jquery.min.js"/>
+	<classpathentry kind="lib" path="WebContent/static/js/jquery.SuperSlide.js"/>
+	<classpathentry kind="lib" path="WebContent/static/js/common.js"/>
+	<classpathentry kind="lib" path="WebContent/static/js/colResizable-1.3.min.js"/>
+	<classpathentry kind="lib" path="WebContent/static/css/common.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/login.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/main.css"/>
+	<classpathentry kind="lib" path="WebContent/static/css/style.css"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
